@@ -1,8 +1,16 @@
 import React from 'react'
 
 const TodoInput = () => {
+
+
+    
+
   return (
-    <div>TodoInput</div>
+    <div>
+
+           <input type="text" placeholder='Write your task'  /> 
+
+    </div>
   )
 }
 
