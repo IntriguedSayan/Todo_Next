@@ -1,10 +1,18 @@
 .main {
+  
+  width: 10rem;
   display: flex;
-  flex-direction: column;
   justify-content: space-between;
   align-items: center;
   padding: 6rem;
-  min-height: 100vh;
+ 
+}
+
+.gridDiv{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
 }
 
 .description {
@@ -48,9 +56,10 @@
 
 .card {
   padding: 1rem 1.2rem;
+  border: 1px solid black;
   border-radius: var(--border-radius);
   background: rgba(var(--card-rgb), 0);
-  border: 1px solid rgba(var(--card-border-rgb), 0);
+  /* border: 1px solid rgba(var(--card-border-rgb), 0); */
   transition: background 200ms, border 200ms;
 }
 
